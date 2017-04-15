@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name":             "PubMed for Omnibox",
+  "name":             "SUMSearch for Omnibox",
   "version":          "0.1",
-  "description":      "PubMed search in the Omnibox",
-  "omnibox":          { "keyword" : "pm" },
+  "description":      "SUMsearch query in the Omnibox",
+  "omnibox":          { "keyword" : "ss" },
   "icons":            { "16": "icon.png" },
   "background":       { "scripts": [ "background.js" ] },
-  "permissions":      [ "http://eutils.ncbi.nlm.nih.gov/" ]
+  "permissions":      [ "http://sumsearch.org/" ]
 }
