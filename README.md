@@ -1,4 +1,4 @@
-PubMed search in the Omnibox
+SUMSearch using the Chrome Omnibox
 ============================
 
 An OmniBox extension for searching [SUMSearch][1].
