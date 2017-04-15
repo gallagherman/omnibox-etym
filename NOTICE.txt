@@ -1,2 +1,3 @@
-PubMed search in the Omnibox
-Copyright 2012 Jukka Zitting
+SUMSearch query in the Omnibox
+Copyright 2017 Robert Badgett
+Derivitive of Copyright 2012 Jukka Zitting
