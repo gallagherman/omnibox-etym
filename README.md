@@ -1,27 +1,17 @@
 PubMed search in the Omnibox
 ============================
 
-An OmniBox extension for searching [PubMed][1].
+An OmniBox extension for searching [SUMSearch][1].
 
-To use, type `pm<tab>` followed by your PubMed query in the Omnibox.
-This extension will automatically query PubMed and give you the
-first few matching references as quick links.
-
-NCBI Disclaimer
----------------
-
-This software is based on APIs and information offered
-by the [National Center for Biotechnology Information][2].
-See http://www.ncbi.nlm.nih.gov/About/disclaimer.html
-for more information on relevant copyrights and other
-conditions of use.
+To use, type `ss<tab>` followed by your search query in the Omnibox.
+This extension will load your query into the SUMSearch interface so you can choose a filter and then execute your search.
 
 License
 -------
 
-Copyright 2012 Jukka Zitting  
+Copyright 2017 Robert Badgett. Derived [PubMed Omnibox][2] Copyright 2012 Jukka Zitting  
 [Apache License, Version 2.0][3] - see LICENSE.txt for full details.
 
-[1]: http://www.ncbi.nlm.nih.gov/pubmed/
-[2]: http://www.ncbi.nlm.nih.gov/
+[1]: http://sumsearch.org/
+[2]: https://github.com/jukka/omnibox-pubmed
 [3]: http://www.apache.org/licenses/LICENSE-2.0
