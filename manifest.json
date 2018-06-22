@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name":             "SUMSearch for Omnibox",
+  "name":             "Etymonline for Omnibox",
   "version":          "0.1",
-  "description":      "SUMsearch query in the Omnibox",
-  "omnibox":          { "keyword" : "ss" },
-  "icons":            { "16": "icon.png" },
+  "description":      "Etymonline query in the Omnibox",
+  "omnibox":          { "keyword" : "etym" },
+  "icons":            { "16": "favicon.ico" },
   "background":       { "scripts": [ "background.js" ] },
-  "permissions":      [ "http://sumsearch.org/" ]
+  "permissions":      [ "http://etymonline.com/" ]
 }

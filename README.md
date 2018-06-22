@@ -1,10 +1,10 @@
-SUMSearch using the Chrome Omnibox
+Etymonline using the Chrome Omnibox
 ============================
 
-An OmniBox extension for searching [SUMSearch][1].
+An OmniBox extension for searching the Online Etymology Dictionary (etymonline.com).
 
-To use, type `ss<tab>` followed by your search query in the Omnibox.
-This extension will load your query into the SUMSearch interface so you can choose a filter and then execute your search.
+To use, type `etym<tab>` followed by your search query in the Omnibox.
+This extension will load your query into a etymonline.com search url and then execute your search.
 
 License
 -------

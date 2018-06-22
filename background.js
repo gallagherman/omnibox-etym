@@ -2,8 +2,8 @@
 // Derivative of Copyright 2012 Jukka Zitting
 // Apache License, Version 2.0 - see the end of this file
 
-var sumsearch = 'http://sumsearch.org';
-var toolid = '&tool=omnibox-sumsearch&email=bob.badgett@gmail.com';
+var etymsearch = 'http://etymonline.com/search';
+var toolid = '&tool=omnibox-etym&email=gallagherman@gmail.com';
 
 function escape(text) {
     text = text.replace(/&/g, "&amp;");
@@ -16,9 +16,9 @@ chrome.omnibox.setDefaultSuggestion({ 'description': '<match>%s</match>' });
 
 chrome.omnibox.onInputEntered.addListener(function(text) {
     var url = text;
-    if (text.lastIndexOf(pubmed, 0) != 0) {
+    if (text.lastIndexOf(etymsearch, 0) != 0) {
         var term = encodeURIComponent(text);
-        url = sumsearch + '?q=' + term;
+        url = etymsearch + '?q=' + term;
     }
     chrome.tabs.update({ 'url': url });
 });
